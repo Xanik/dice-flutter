@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-void main() {
-  runApp(MaterialApp(
+void main() => runApp(MaterialApp(
     home: Scaffold(
       backgroundColor: Colors.red,
       appBar: AppBar(
@@ -12,7 +11,7 @@ void main() {
       body: const DicePage(),
     ),
   ));
-}
+
 
 class DicePage extends StatefulWidget {
   const DicePage({Key? key}) : super(key: key);
